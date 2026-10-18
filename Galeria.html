@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de imágenes</title>
+</head>
+<style>
+    
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0fff0; 
+}
+
+
+.barra-lateral {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #74d79f;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.boton {
+  color: rgb(107, 51, 51);
+  text-decoration: none;
+  padding: 15px;
+  margin: 5px 10px;
+  background-color: #76d5a1; 
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.boton:hover {
+  background-color: #26edab; 
+  transform: scale(1.1);
+}
+
+.contenido {
+  margin-left: 220px; 
+  padding: 20px;
+}
+
+.sombra-suave{
+  font-size:x-large;
+  color: #2c3e50;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.degradado {
+  background: linear-gradient(to right, #110d10, #fee5c0);
+  -webkit-ackground-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.borde-texto {
+  color: rgb(197, 116, 116);
+  font-weight: bold;
+  -webkit-text-stroke: 1px black;
+}
+
+.flotante {
+  animation: flotar 2s ease-in-out infinite;
+}
+@keyframes flotar {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.fondo-resaltado {
+  background-color: #f1e5b9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #2d3436;
+}
+</style>
+<body>
+          <center>
+    <h1 class="titulo">Mi Galería</h1>
+    <div class="galeria">
+        <div class="galeria-item">
+            <img src="Img/Galeria-1.jpg" width="300" height="300">
+        </div>
+        <div class="galeria-item">
+            <img src="Img/Galeria-2.jpg" width="300" height="300">
+        </div>
+        <div class="galeria-item">
+            <img src="Img/Galeria-3.jpg" width="300" height="300">
+            </Center>
+        </div>
+        <nav>
+    <div class="barra-lateral">
+        <a href="Index.html">Inicio</a>
+        <a href="Menu.html">Menu</a>
+        <a href="Galeria.html">Galeria</a>
+        <a href="Reservaciones.html">Reservaciones</a>
+    </div>    
+    </nav>
+    </div>
+
+</body>
+</html>

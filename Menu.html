@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú de Platillos</title>
+    <style>
+        
+        /* Estilos básicos para el cuadro */
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Une los bordes en una sola línea */
+            font-family: Arial, sans-serif;
+            margin-top: 20px;
+        }
+        /* Estilos para el encabezado de las secciones */
+        th {
+            background-color: #333;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        /* Estilos para las celdas de contenido */
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            vertical-align: middle;
+        }
+        /* Fondo alterno para las filas para mejorar la lectura */
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        /* Control del tamaño de las imágenes */
+        .img-platillo {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Nuestro Menú (Platillos)</h2>
+
+    <table>
+        <!-- Encabezado con las 4 secciones -->
+        <thead>
+            <tr>
+                <th>Platillo</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+                <th>Imagen</th>
+            </tr>
+        </thead>
+        
+        <!-- Cuerpo de la tabla con los 5 temas/platillos -->
+        <tbody>
+            <!-- Platillo 1 -->
+            <tr>
+                <td><strong>California Roll</strong></td>
+                <td>Surimi,Pepino y Aguacate</td>
+                <td>$85</td>
+                <td><img src="Img/California roll.jpg"width="300" height="300"></td>
+            </tr>
+            <!-- Platillo 2 -->
+            <tr>
+                <td><strong>Ebi Roll</strong></td>
+                <td>Camaron,aguacate y Pepino</td>
+                <td>$95</td>
+                <td><img src="Img/Ebi Roll.jpg"width="300" height="300"></td>
+            </tr>
+            <!-- Platillo 3 -->
+            <tr>
+                <td><strong>Avocado Roll</strong></td>
+                <td>Aguacate,pepino y queso crema</td>
+                <td>$100</td>
+                <td><img src="Img/Avocado Roll.jpg"width="300" height="300"></td>
+            </tr>
+            <!-- Platillo 4 -->
+            <tr>
+                <td><strong>Combo Koi</strong></td>
+                <td>Variedad de shushi y acompañamientos</td>
+                <td>$150</td>
+                <td><img src="Img/Combo Koi.jpg"width="300" height="300"></td>
+            </tr>
+            <!-- Platillo 5 -->
+            <tr>
+                <td><strong>Spicy Roll</strong></td>
+                <td>Camaron,pepino y salsa picante</td>
+                <td>$150</td>
+                <td><img src="Img/Spicy Roll.jpg"width="300" height="300"></td>
+            </tr>
+            
+    <nav>
+        <a href="Index.html">Inicio</a>
+        <a href="Menu.html">Menu</a>
+        <a href="Galeria.html">Galeria</a>
+        <a href="Reservaciones.html">Reservaciones</a>
+    </nav>
+
+        </tbody>
+    </table>
+
+</body>
+</html>
